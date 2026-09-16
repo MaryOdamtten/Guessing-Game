@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: beige;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 30px;
+    gap: 10px;
+    margin-top: 100px;
+    margin-right: 80px;
+    margin-left: 80px;
+    border: 1px solid gray;
+    border-radius: 30px;
+    height: 400px;
+    box-shadow: 5px 5px 10px gray;
+
+}
+
+input {
+    height: 35px;
+    width: 200px;
+    font-size: medium;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: gainsboro;
+    color: black;
+    border: none;
+}
+
+
+p {
+    color: burlywood;
+}
