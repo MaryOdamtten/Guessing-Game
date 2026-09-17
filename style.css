@@ -5,50 +5,85 @@
 }
 
 body {
-    background-color: beige;
+    background-color: pink;
 }
 
 div {
+    background-color: rgb(243, 214, 218);
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
     justify-content: center;
-    padding: 50px 30px;
+    padding: 120px 50px;
     gap: 10px;
     margin-top: 100px;
-    margin-right: 80px;
-    margin-left: 80px;
+    margin-right: 150px;
+    margin-left: 150px;
     border: 1px solid gray;
     border-radius: 30px;
     height: 400px;
     box-shadow: 5px 5px 10px gray;
-
+  
 }
 
 input {
-    height: 35px;
     width: 200px;
-    font-size: medium;
+    padding: 10px 20px;
+    font-size: small;
     text-align: center;
+    border: 2px solid rgb(200, 88, 106);
+    border-radius: 10px;
 }
 
 button {
     padding: 10px 20px;
-    background-color: black;
+    font-weight: bold;
+    background-color:rgb(243, 168, 180);
     color: white;
     border: none;
-    border-radius: 10px;
+    border-radius: 30px;
 }
 
 button:hover {
     cursor: pointer;
-    background-color: gainsboro;
+    font-weight: bold;
+    background-color: white;
     color: black;
     border: none;
 }
 
 
-p {
-    color: burlywood;
+h1{
+    font-size: 40px;
+    font-family: "Shadows Into Light", cursive;
+}
+
+p{
+    font-family: "Shadows Into Light", cursive;
+   
+}
+
+@media (max-width: 600px) {
+    div{
+        width: 90%;
+        margin: 50px auto;
+        padding: 40px 20px;
+        height: 400px;
+       
+    }
+
+    input{
+        width: 80%;
+        max-width: 250px;
+    }
+    h1{
+        font-size: 23px;
+        white-space: nowrap;
+    }
+
+    p{
+        font-size: 16px;
+    }
+ 
 }
